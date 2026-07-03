@@ -46,7 +46,7 @@ The project develops an interpretable regression model for diamond price predict
 - The final OLS model achieved a **test-set $R^2 \sim 98.1\%$** while remaining simple and interpretable. Residual diagnostics indicated no major systematic structure left unexplained, and bootstrap resampling demonstrated excellent prediction stability.
 
 <p align="center">
-  <img src="Figures/residuals.png" alt="Residual diagnostics" width="70%">
+  <img src="Figures/Residuals.png" alt="Residual diagnostics" width="70%">
 </p>
 
 - Ridge and LASSO regression were used to investigate the robustness of the selected features. LASSO retained essentially the same predictors as the manually engineered model, indicating that the EDA-guided feature selection captured the dominant predictive information despite searching a much smaller model space.
