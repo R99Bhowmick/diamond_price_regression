@@ -34,7 +34,7 @@ The project develops an interpretable regression model for diamond price predict
   <img src="Figures/Carat_Price.png" alt="Log Price vs Carat" width="80%">
 </p>
 <p align="center">
-  <img src="Figures/Carat_cubic.png" alt="carat polyn dependence" width="70%">
+  <img src="Figures/Carat_Cubic.png" alt="carat polyn dependence" width="70%">
 </p>
 
 - Removing the dominant carat trend revealed weaker but significant effects of **cut**, **color**, and **clarity**, together with interaction effects between **carat × clarity** and **clarity × color**, which were incorporated through feature engineering.
